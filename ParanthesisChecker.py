@@ -1,8 +1,6 @@
-#User function Template for python3
-
+#Function to check if brackets are balanced or not.
 class Solution:
     
-    #Function to check if brackets are balanced or not.
     def ispar(self,x):
         list = []
         brackets = {'(':')','{':'}','[':']'}
@@ -26,8 +24,6 @@ class Solution:
 import atexit
 import io
 import sys
-
-#Contributed by : Nagendra Jha
 
 _INPUT_LINES = sys.stdin.read().splitlines()
 input = iter(_INPUT_LINES).__next__
